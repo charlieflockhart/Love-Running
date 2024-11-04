@@ -1,3 +1,16 @@
+/* Fonts */
+.noto-sans-ethiopic {
+  font-family: "Noto Sans Ethiopic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Fonts */
+
+
+
 /* Asterisk wildcard selector to override deault styles added by the browser */
 * {
     padding: 0%;
@@ -6,7 +19,7 @@
 }
 
 /* General styles */
-body{
+body class="noto-sans-ethiopic"{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
