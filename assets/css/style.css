@@ -19,7 +19,8 @@
 }
 
 /* General styles */
-body class="noto-sans-ethiopic"{
+body {
+    font-family: "Noto Sans Ethiopic", sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -29,6 +30,10 @@ body class="noto-sans-ethiopic"{
 
 header {
     background-color: lightcoral;
+}
+
+h1 {
+    font-family:"Oswald", sans-serif;
 }
 
 main {
