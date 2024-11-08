@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* Fonts */
 .noto-sans-ethiopic {
   font-family: "Noto Sans Ethiopic", sans-serif;
@@ -7,6 +9,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 /* Fonts */
 
 
@@ -98,11 +101,22 @@ main {
     background-color: lightblue;
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 60px;
 }
 
-footer{
-    background-color: orange;
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media Query: Tablets and larger (768px and up) */
@@ -138,7 +152,7 @@ nav {
 
 /*Main Content */ 
 main {
-    margin-top: 75px;
+    margin-top: 80px;
 }
 
 h1 {
